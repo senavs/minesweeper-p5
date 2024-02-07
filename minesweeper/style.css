@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    background-color: white;
+    text-align: center;
+    
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: black;
+    
+    font-weight: bold;
+    user-select: none;
+  }
+  
+  .revealed {
+    background-color: rgb(189,189,189);
+  }
+  
+  .mineCount1 {
+    color: #007EFF;
+  }
+  
+  .mineCount2 {
+    color: #18AB48;
+  }
+  
+  .mineCount3 {
+    color: rgb(240,21,12);
+  }
+  
+  .mineCount4 {
+    color: rgb(14,47,180);
+  }
+  
+  .mineCount5 {
+    color: rgb(150,16,16);
+  }
+  
+  .mineCount6 {
+    color: rgb(124,45,45);
+  }
+  
+  .mineCount7 {
+    color: #B930BB;
+  }
+  
+  .mineCount8 {
+    color: #797179;
+  }
